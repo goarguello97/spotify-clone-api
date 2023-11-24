@@ -1,4 +1,4 @@
-import ArtistsService from "../services/artists";
+import ArtistsService from "../services/artists.js";
 
 export default class ArtistsController {
   static async getAll(req, res) {

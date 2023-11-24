@@ -1,4 +1,4 @@
-import AlbumsService from "../services/albums";
+import AlbumsService from "../services/albums.js";
 
 export default class AlbumsController {
   static async getAll(req, res) {

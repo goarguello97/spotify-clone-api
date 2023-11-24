@@ -1,4 +1,4 @@
-import TracksService from "../services/albums";
+import TracksService from "../services/albums.js";
 
 export default class TracksController {
   static async getTrack(req, res) {

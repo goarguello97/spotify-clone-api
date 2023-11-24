@@ -1,4 +1,4 @@
-export default info = [
+const info = [
   "user-read-email", // email info
   "user-read-private", // user private info (not sensitive data)
   "playlist-read-private", // fetch private playlists
@@ -7,3 +7,5 @@ export default info = [
   "user-follow-read", // fetch what user follows
   "user-library-read",
 ];
+
+export default info

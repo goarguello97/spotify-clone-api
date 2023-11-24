@@ -1,5 +1,5 @@
-import PlaylistService from "../services/playlists";
-import AuthService from "../services/auth";
+import PlaylistService from "../services/playlists.js";
+import AuthService from "../services/auth.js";
 
 export default class PlaylistController {
   static async getAll(req, res) {
