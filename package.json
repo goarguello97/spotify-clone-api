@@ -27,6 +27,7 @@
     "qs": "^6.11.2"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "nodemon": "^3.0.1"
   }
 }
