@@ -1,7 +1,7 @@
 import express from "express";
-import PlaylistsController from "../controllers/playlists";
+import PlaylistsController from "../controllers/playlists.js";
 
-export default playlistRouter = express.Router();
+const playlistRouter = express.Router();
 
 playlistRouter.get("/", PlaylistsController.getAll);
 playlistRouter.get("/:id", PlaylistsController.getSingle);
@@ -12,3 +12,5 @@ playlistRouter.delete(
   PlaylistsController.removeTrackFromPlaylist
 );
 playlistRouter.put("/:id", PlaylistsController.updatePlaylist);
+
+export default playlistRouter

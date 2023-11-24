@@ -1,9 +1,11 @@
 import express from "express";
-import TracksController from "../controllers/tracks";
+import TracksController from "../controllers/tracks.js";
 
-export default tracksRouter = express.Router();
+const tracksRouter = express.Router();
 
 tracksRouter.get("/:id", TracksController.getTrack);
 tracksRouter.get("/search", TracksController.search);
 tracksRouter.put("/", TracksController.addTrackToFavs);
 tracksRouter.delete("/", TracksController.removeTrackFromFavs);
+
+export default tracksRouter;

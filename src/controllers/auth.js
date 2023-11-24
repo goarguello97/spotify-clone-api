@@ -1,8 +1,8 @@
 import qs from "qs";
-import AuthService from "../services/auth";
-import { generateRandomString } from "../utils";
-import config from "../config";
-import scopes from "./scopes";
+import AuthService from "../services/auth.js";
+import { generateRandomString } from "../utils.js";
+import config from "../config.js";
+import scopes from "./scopes.js";
 
 const stateKey = "spotify_auth_state";
 const token = "access_token";
